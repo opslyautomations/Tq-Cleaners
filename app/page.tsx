@@ -1,65 +1,298 @@
+import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
+import { Phone, CheckCircle, Calendar, ShieldCheck, Leaf } from "lucide-react";
+import GHLForm from "@/components/GHLForm";
+import TrustBar from "@/components/TrustBar";
+import ServiceCard from "@/components/ServiceCard";
+import ReviewCard from "@/components/ReviewCard";
+import CTASection from "@/components/CTASection";
+import { SITE, SERVICES, METROS, REVIEWS, BLOG_POSTS } from "@/lib/constants";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "TQ Cleaners | Professional House & Commercial Cleaning in Texas",
+  description:
+    "TQ Cleaners delivers licensed, insured, 5-star house cleaning and commercial cleaning across San Antonio, Austin, Dallas, and Fort Worth. 100% satisfaction guaranteed. Get a free quote today.",
+  alternates: { canonical: "https://tqcleaners.com" },
+  openGraph: {
+    type: "website",
+    title: "TQ Cleaners | House & Commercial Cleaning in Texas",
+    description:
+      "Licensed, insured 5-star cleaning services across San Antonio, Austin, Dallas & Fort Worth. 100% satisfaction guaranteed.",
+    url: "https://tqcleaners.com",
+    siteName: "TQ Cleaners",
+    locale: "en_US",
+    images: [
+      {
+        url: "https://tqcleaners.com/og/homepage.png",
+        secureUrl: "https://tqcleaners.com/og/homepage.png",
+        width: 1200,
+        height: 630,
+        alt: "TQ Cleaners — Professional House Cleaning in Texas",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TQ Cleaners | House & Commercial Cleaning in Texas",
+    description:
+      "Licensed, insured 5-star cleaning services across San Antonio, Austin, Dallas & Fort Worth.",
+    images: ["https://tqcleaners.com/og/homepage.png"],
+  },
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "TQ Cleaners",
+  url: "https://tqcleaners.com",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: "https://tqcleaners.com/search?q={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const WHY_FEATURES = [
+  {
+    icon: ShieldCheck,
+    title: "Trained & Background-Checked Team",
+    body: "Every cleaner is vetted, insured, and trained on our 50-point checklist before stepping foot in your home.",
+  },
+  {
+    icon: Leaf,
+    title: "Eco-Friendly Products",
+    body: "Plant-based, non-toxic cleaning products safe for kids, pets, and allergy-sensitive households.",
+  },
+  {
+    icon: CheckCircle,
+    title: "Transparent Flat-Rate Pricing",
+    body: "Know the exact price before we arrive. No hourly surprises, no upsell tactics — ever.",
+  },
+  {
+    icon: Calendar,
+    title: "Flexible Scheduling 7 Days a Week",
+    body: "Weeknights and weekends available. We work around your schedule, not the other way around.",
+  },
+];
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+
+      {/* Hero */}
+      <section className="relative bg-[#0A1628] min-h-screen flex items-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1600&q=80"
+            alt="Modern clean living room — professional house cleaning by TQ Cleaners"
+            fill
+            className="object-cover opacity-15"
+            priority
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0A1628] via-[#0A1628]/90 to-[#0A1628]/60" />
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
+          <div className="grid lg:grid-cols-5 gap-12 items-center">
+            {/* Left: 60% */}
+            <div className="lg:col-span-3">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#F5F9FC] font-display leading-tight mb-6">
+                Spotless Homes, Effortless Living —{" "}
+                <span className="text-[#4FC3F7]">Across Central & North Texas</span>
+              </h1>
+              <p className="text-lg md:text-xl text-[#F5F9FC]/80 mb-8 max-w-2xl leading-relaxed">
+                TQ Cleaners delivers licensed, insured, 5-star cleaning services across San Antonio,
+                Austin, Dallas, and Fort Worth. 100% satisfaction guaranteed.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-[#E6B800] text-[#0A1628] font-bold text-lg rounded-lg hover:bg-[#CFA200] transition-colors"
+                >
+                  Get a Free Quote
+                </Link>
+                <a
+                  href={`tel:${SITE.phoneTel}`}
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-[#F5F9FC]/60 text-[#F5F9FC] font-bold text-lg rounded-lg hover:bg-white/10 transition-colors"
+                >
+                  <Phone size={20} />
+                  Call {SITE.phone}
+                </a>
+              </div>
+              <div className="mt-8 flex flex-wrap gap-4 text-sm text-[#F5F9FC]/60">
+                <span>⭐ 5-Star Rated</span>
+                <span>🛡️ Licensed & Insured</span>
+                <span>📍 30+ Cities</span>
+                <span>💯 Satisfaction Guaranteed</span>
+                <span>📞 Same-Day Quotes</span>
+              </div>
+            </div>
+            {/* Right: 40% — GHL Form */}
+            <div className="lg:col-span-2">
+              <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
+                <div className="bg-[#0A1628] px-6 py-4">
+                  <p className="text-[#F5F9FC] font-bold text-lg text-center font-display">Get Your Free Quote</p>
+                  <p className="text-[#F5F9FC]/60 text-sm text-center">Response in under 60 seconds</p>
+                </div>
+                <GHLForm />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Trust Bar */}
+      <TrustBar />
+
+      {/* Services Grid */}
+      <section className="bg-white py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0A1628] font-display mb-4">
+              Cleaning Services Built Around Your Life
+            </h2>
+            <p className="text-[#1A2332]/70 max-w-2xl mx-auto text-lg leading-relaxed">
+              From recurring maintenance to deep resets, move-out turnovers, Airbnb flips, and commercial
+              cleaning — TQ Cleaners has a service for every need across Central and North Texas.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {SERVICES.map((service) => (
+              <ServiceCard key={service.slug} {...service} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why TQ Cleaners */}
+      <section className="bg-[#0D1B2A] py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#F5F9FC] font-display mb-4">
+              Why Texas Homeowners Choose TQ Cleaners
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {WHY_FEATURES.map(({ icon: Icon, title, body }) => (
+              <div key={title} className="bg-white/5 border border-white/10 rounded-xl p-6">
+                <div className="w-12 h-12 rounded-lg bg-[#4FC3F7]/15 flex items-center justify-center mb-4">
+                  <Icon size={24} className="text-[#4FC3F7]" />
+                </div>
+                <h3 className="font-bold text-[#F5F9FC] mb-2 font-display">{title}</h3>
+                <p className="text-[#F5F9FC]/65 text-sm leading-relaxed">{body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Service Areas */}
+      <section className="bg-white py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0A1628] font-display mb-4">
+              Proudly Serving Central & North Texas
+            </h2>
+            <p className="text-[#1A2332]/70 max-w-xl mx-auto">
+              From the military communities of San Antonio to the tech corridors of Austin, the corporate hubs
+              of Dallas, and the growing suburbs of Fort Worth — TQ Cleaners is your local team.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {METROS.map((metro) => (
+              <div key={metro.slug} className="border border-gray-200 rounded-xl p-6 hover:-translate-y-1 transition-transform shadow-sm">
+                <h3 className="font-bold text-[#0A1628] text-xl font-display mb-2">{metro.name}</h3>
+                <p className="text-[#1A2332]/60 text-sm mb-4">{metro.cities.length} cities served</p>
+                <Link
+                  href={`/service-areas/${metro.slug}`}
+                  className="text-[#4FC3F7] font-semibold text-sm hover:text-[#0A1628] transition-colors"
+                >
+                  View Cities →
+                </Link>
+              </div>
+            ))}
+          </div>
+          <p className="text-center mt-8 text-[#1A2332]/60 text-sm">
+            Don&apos;t see your city?{" "}
+            <a href={`tel:${SITE.phoneTel}`} className="text-[#4FC3F7] font-medium hover:underline">
+              Call us
             </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+            — we&apos;re always expanding.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* Reviews Carousel */}
+      <section className="bg-[#0D1B2A] py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#F5F9FC] font-display mb-4">
+              What Our Customers Say
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {REVIEWS.slice(0, 3).map((review) => (
+              <ReviewCard key={review.id} review={review} />
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/reviews" className="text-[#4FC3F7] font-semibold hover:text-white transition-colors">
+              See All Reviews →
+            </Link>
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* Blog Teaser */}
+      <section className="bg-white py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0A1628] font-display mb-4">
+              Cleaning Tips From the TQ Team
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {BLOG_POSTS.slice(0, 3).map((post) => (
+              <article key={post.slug} className="border border-gray-200 rounded-xl overflow-hidden hover:-translate-y-1 transition-transform shadow-sm">
+                <div className="relative h-48">
+                  <Image
+                    src={post.image}
+                    alt={post.title}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                </div>
+                <div className="p-6">
+                  <span className="text-xs font-semibold text-[#4FC3F7] uppercase tracking-wide">{post.category}</span>
+                  <h3 className="font-bold text-[#0A1628] text-lg mt-2 mb-3 font-display leading-snug">{post.title}</h3>
+                  <p className="text-[#1A2332]/65 text-sm leading-relaxed mb-4">{post.excerpt}</p>
+                  <Link href={`/blog/${post.slug}`} className="text-[#4FC3F7] font-semibold text-sm hover:text-[#0A1628] transition-colors">
+                    Read More →
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/blog" className="text-[#4FC3F7] font-semibold hover:underline">
+              Visit the Blog →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <CTASection />
+    </>
   );
 }

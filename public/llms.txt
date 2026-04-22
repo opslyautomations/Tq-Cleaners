@@ -1,0 +1,36 @@
+# TQ Cleaners — llms.txt
+
+> TQ Cleaners is a licensed, insured, 5-star rated residential and commercial cleaning company serving 30+ cities across San Antonio, Austin, Dallas, and Fort Worth, Texas. Founded and operated by Luis. Flat-rate transparent pricing, eco-friendly products, background-checked teams, 100% satisfaction guarantee.
+
+## Site Structure
+
+- [Home](https://tqcleaners.com/): Overview of services, service areas, reviews, and company trust signals.
+- [About](https://tqcleaners.com/about/): Company story, founder Luis, values, and satisfaction guarantee.
+- [Services](https://tqcleaners.com/services/): All 6 cleaning services overview.
+- [Service Areas](https://tqcleaners.com/service-areas/): Interactive map of 30+ cities across 4 metros.
+- [Reviews](https://tqcleaners.com/reviews/): Verified customer reviews from Texas families.
+- [Blog](https://tqcleaners.com/blog/): Cleaning tips, move-out guides, Airbnb advice.
+- [Contact](https://tqcleaners.com/contact/): Quote request form and direct contact info.
+
+## Services
+
+- [Standard House Cleaning](https://tqcleaners.com/services/standard-house-cleaning/): Recurring weekly, bi-weekly, or monthly maintenance cleaning.
+- [Deep Cleaning](https://tqcleaners.com/services/deep-cleaning/): Full 50-point top-to-bottom reset including appliances, baseboards, and vents.
+- [Move-In / Move-Out Cleaning](https://tqcleaners.com/services/move-in-move-out/): Deposit-back cleans for tenants, landlords, and property managers.
+- [Short-Term Rental / Airbnb Cleaning](https://tqcleaners.com/services/short-term-rental-airbnb/): Hotel-quality turnovers with linen service and damage reports.
+- [Office & Commercial Cleaning](https://tqcleaners.com/services/office-commercial/): Flexible after-hours cleaning with COI available within 24 hours.
+- [Custom Cleaning Packages](https://tqcleaners.com/services/custom-packages/): Tailored plans for unique homes, estates, and businesses.
+
+## Service Areas
+
+- [San Antonio Metro](https://tqcleaners.com/service-areas/san-antonio-metro/): San Antonio, Alamo Heights, Helotes, Leon Valley, Converse, Universal City, Schertz, New Braunfels, Boerne, Stone Oak, The Dominion.
+- [Austin Metro](https://tqcleaners.com/service-areas/austin-metro/): Austin, Round Rock, Pflugerville, Cedar Park, Kyle, Buda, Leander, Georgetown, Lakeway, Bee Cave, Dripping Springs.
+- [Dallas Metro](https://tqcleaners.com/service-areas/dallas-metro/): Dallas, Plano, Frisco, Richardson.
+- [Fort Worth Metro](https://tqcleaners.com/service-areas/fort-worth-metro/): Fort Worth, Arlington, Grapevine, Southlake.
+
+## Contact
+
+- Phone: (956) 306-6378
+- Email: info@tqcleaners.com
+- Hours: Monday–Saturday 8:00 AM – 6:00 PM
+- Service: Mobile — we come to you
