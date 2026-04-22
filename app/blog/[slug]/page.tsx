@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import CTASection from "@/components/CTASection";
 import { BLOG_POSTS_DATA } from "@/lib/blog-posts-data";
 import { buildBreadcrumbSchema } from "@/lib/schema";
@@ -63,21 +62,18 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
-      {/* Hero Image */}
-      <section className="bg-[#0A1628]">
-        <div className="relative h-72 md:h-96 w-full">
-          <Image src={post.image} alt={post.title} fill className="object-cover opacity-40" priority sizes="100vw" />
-          <div className="absolute inset-0 flex flex-col justify-end p-6 md:p-12 max-w-4xl mx-auto w-full">
-            <nav className="flex items-center gap-2 text-sm text-[#F5F9FC]/50 mb-4 flex-wrap">
-              <Link href="/" className="hover:text-[#4FC3F7]">Home</Link>
-              <span>/</span>
-              <Link href="/blog" className="hover:text-[#4FC3F7]">Blog</Link>
-              <span>/</span>
-              <span className="text-[#F5F9FC]/80 line-clamp-1">{post.title}</span>
-            </nav>
-            <span className="text-xs font-bold text-[#4FC3F7] uppercase tracking-wide mb-2">{post.category}</span>
-            <h1 className="text-2xl md:text-4xl font-bold text-[#F5F9FC] font-display leading-tight">{post.title}</h1>
-          </div>
+      {/* Hero */}
+      <section className="bg-[#0A1628] py-16 px-4 border-b border-white/10">
+        <div className="max-w-4xl mx-auto">
+          <nav className="flex items-center gap-2 text-sm text-[#F5F9FC]/50 mb-4 flex-wrap">
+            <Link href="/" className="hover:text-[#4FC3F7]">Home</Link>
+            <span>/</span>
+            <Link href="/blog" className="hover:text-[#4FC3F7]">Blog</Link>
+            <span>/</span>
+            <span className="text-[#F5F9FC]/80 line-clamp-1">{post.title}</span>
+          </nav>
+          <span className="text-xs font-bold text-[#4FC3F7] uppercase tracking-wide mb-3 block">{post.category}</span>
+          <h1 className="text-2xl md:text-4xl font-bold text-[#F5F9FC] font-display leading-tight">{post.title}</h1>
         </div>
       </section>
 
@@ -133,8 +129,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
               {related.map((p) => (
                 <Link key={p.slug} href={`/blog/${p.slug}`} className="group flex flex-col bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow">
-                  <div className="relative h-40 bg-gray-100">
-                    <Image src={p.image} alt={p.title} fill className="object-cover" sizes="(max-width: 768px) 100vw, 33vw" />
+                  <div className="h-40 bg-gradient-to-br from-[#0A1628] to-[#1A3A5C] flex items-center justify-center">
+                    <span className="text-xs font-bold text-[#4FC3F7] uppercase tracking-widest px-3 py-1.5 border border-[#4FC3F7]/30 rounded-full">
+                      {p.category}
+                    </span>
                   </div>
                   <div className="p-4 flex flex-col gap-2 flex-1">
                     <span className="text-xs font-bold text-[#4FC3F7] uppercase tracking-wide">{p.category}</span>

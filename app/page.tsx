@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { Phone, CheckCircle, Calendar, ShieldCheck, Leaf } from "lucide-react";
 import GHLForm from "@/components/GHLForm";
@@ -10,9 +9,9 @@ import CTASection from "@/components/CTASection";
 import { SITE, SERVICES, METROS, REVIEWS, BLOG_POSTS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "TQ Cleaners | Professional House & Commercial Cleaning in Texas",
+  title: "TQ Cleaners | House & Commercial Cleaning in Texas",
   description:
-    "TQ Cleaners delivers licensed, insured, 5-star house cleaning and commercial cleaning across San Antonio, Austin, Dallas, and Fort Worth. 100% satisfaction guaranteed. Get a free quote today.",
+    "TQ Cleaners delivers licensed, insured, 5-star house and commercial cleaning across 30+ Texas cities — San Antonio, Austin, Dallas, Fort Worth. 100% satisfaction guaranteed. Free quote today.",
   alternates: { canonical: "https://tqcleaners.com" },
   openGraph: {
     type: "website",
@@ -90,17 +89,7 @@ export default function HomePage() {
 
       {/* Hero */}
       <section className="relative bg-[#0A1628] min-h-screen flex items-center overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1600&q=80"
-            alt="Modern clean living room — professional house cleaning by TQ Cleaners"
-            fill
-            className="object-cover opacity-15"
-            priority
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0A1628] via-[#0A1628]/90 to-[#0A1628]/60" />
-        </div>
+        <div className="absolute inset-0 z-0 bg-gradient-to-br from-[#0A1628] via-[#0A1628] to-[#0D2B45]" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
           <div className="grid lg:grid-cols-5 gap-12 items-center">
             {/* Left: 60% */}
@@ -263,14 +252,10 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {BLOG_POSTS.slice(0, 3).map((post) => (
               <article key={post.slug} className="border border-gray-200 rounded-xl overflow-hidden hover:-translate-y-1 transition-transform shadow-sm">
-                <div className="relative h-48">
-                  <Image
-                    src={post.image}
-                    alt={post.title}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                  />
+                <div className="h-48 bg-gradient-to-br from-[#0A1628] to-[#1A3A5C] flex items-center justify-center">
+                  <span className="text-xs font-bold text-[#4FC3F7] uppercase tracking-widest px-4 py-2 border border-[#4FC3F7]/30 rounded-full">
+                    {post.category}
+                  </span>
                 </div>
                 <div className="p-6">
                   <span className="text-xs font-semibold text-[#4FC3F7] uppercase tracking-wide">{post.category}</span>

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import CTASection from "@/components/CTASection";
 import { BLOG_POSTS_DATA } from "@/lib/blog-posts-data";
 import { buildBreadcrumbSchema } from "@/lib/schema";
@@ -65,8 +64,10 @@ export default function BlogPage() {
       <section className="bg-white py-12 px-4">
         <div className="max-w-5xl mx-auto">
           <Link href={`/blog/${featured.slug}`} className="group grid md:grid-cols-2 gap-8 items-center p-6 border border-gray-200 rounded-2xl hover:shadow-lg transition-shadow">
-            <div className="relative h-64 rounded-xl overflow-hidden bg-gray-100">
-              <Image src={featured.image} alt={featured.title} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+            <div className="h-64 rounded-xl overflow-hidden bg-gradient-to-br from-[#0A1628] to-[#1A3A5C] flex items-center justify-center">
+              <span className="text-xs font-bold text-[#4FC3F7] uppercase tracking-widest px-4 py-2 border border-[#4FC3F7]/30 rounded-full">
+                {featured.category}
+              </span>
             </div>
             <div className="flex flex-col gap-3">
               <span className="text-xs font-bold text-[#4FC3F7] uppercase tracking-wide">{featured.category} · Featured</span>
@@ -91,8 +92,10 @@ export default function BlogPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {rest.map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} className="group flex flex-col bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow">
-                <div className="relative h-48 bg-gray-100">
-                  <Image src={post.image} alt={post.title} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+                <div className="h-48 bg-gradient-to-br from-[#0A1628] to-[#1A3A5C] flex items-center justify-center">
+                  <span className="text-xs font-bold text-[#4FC3F7] uppercase tracking-widest px-4 py-2 border border-[#4FC3F7]/30 rounded-full">
+                    {post.category}
+                  </span>
                 </div>
                 <div className="p-5 flex flex-col gap-3 flex-1">
                   <span className="text-xs font-bold text-[#4FC3F7] uppercase tracking-wide">{post.category}</span>
