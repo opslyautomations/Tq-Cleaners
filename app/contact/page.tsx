@@ -66,7 +66,7 @@ export default function ContactPage() {
           {/* Form */}
           <div>
             <h2 className="text-2xl font-bold text-[#0A1628] font-display mb-6">Request a Quote</h2>
-            <GHLForm minHeight="600px" />
+            <GHLForm />
           </div>
 
           {/* Contact Info */}
