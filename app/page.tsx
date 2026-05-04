@@ -128,10 +128,6 @@ export default function HomePage() {
             {/* Right: 40% — GHL Form */}
             <div className="lg:col-span-2">
               <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
-                <div className="bg-[#0A1628] px-6 py-4">
-                  <p className="text-[#F5F9FC] font-bold text-lg text-center font-display">Get Your Free Quote</p>
-                  <p className="text-[#F5F9FC]/60 text-sm text-center">Response in under 60 seconds</p>
-                </div>
                 <GHLForm />
               </div>
             </div>
