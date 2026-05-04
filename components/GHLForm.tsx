@@ -6,7 +6,7 @@ interface GHLFormProps {
   minHeight?: string;
 }
 
-export default function GHLForm({ minHeight = "900px" }: GHLFormProps) {
+export default function GHLForm({ minHeight = "1500px" }: GHLFormProps) {
   const [height, setHeight] = useState(minHeight);
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
@@ -57,6 +57,7 @@ export default function GHLForm({ minHeight = "900px" }: GHLFormProps) {
         data-deactivation-type="neverDeactivate"
         data-deactivation-value=""
         data-form-name="House Cleaning Lead Generation"
+        data-height="1500"
         data-layout-iframe-id="inline-eIUGbCAZpWWHv8h2d4XJ"
         data-form-id="eIUGbCAZpWWHv8h2d4XJ"
         title="House Cleaning Lead Generation"
