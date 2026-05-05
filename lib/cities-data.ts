@@ -19,7 +19,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "san-antonio-metro",
     metroName: "San Antonio Metro",
     metaTitle: "House Cleaning in San Antonio, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides licensed, insured house cleaning and commercial cleaning in San Antonio, TX. 5-star rated, eco-friendly, flat-rate pricing. Get a free quote today.",
+    metaDesc: "Licensed, insured house & commercial cleaning in San Antonio, TX. 5-star rated, eco-friendly, flat-rate pricing. Free quote today.",
     intro: "San Antonio is one of the most vibrant cities in Texas — from the historic River Walk and King William District to the military communities surrounding Fort Sam Houston and Lackland AFB. With a city this large and this busy, keeping your home or business clean shouldn't be one more thing on your list. TQ Cleaners serves San Antonio families and businesses with the same 5-star consistency we're known for across Texas — background-checked teams, eco-friendly products, and flat-rate pricing that eliminates surprises. Whether you're in Alamo Heights, the Stone Oak corridor, the South Side, or anywhere in between, TQ Cleaners brings professional-grade cleaning directly to your door. We understand the unique pace of San Antonio life — fast-growing, family-focused, and deeply connected to its military and cultural roots.",
     reasons: [
       { title: "Same-Day Availability", body: "San Antonio's size means demand is high — we staff for it. Same-day and next-day quotes are available for most neighborhoods." },
@@ -38,7 +38,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "san-antonio-metro",
     metroName: "San Antonio Metro",
     metaTitle: "House Cleaning in Alamo Heights, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides trusted house cleaning in Alamo Heights, TX — heritage home expertise, discreet service, flat-rate pricing. Licensed and insured. Get a free quote.",
+    metaDesc: "Trusted house cleaning in Alamo Heights, TX — heritage home expertise, discreet service, flat-rate pricing. Licensed & insured.",
     intro: "Alamo Heights is one of San Antonio's most distinguished neighborhoods — a tight-knit, established enclave entirely surrounded by Loop 410 with a character all its own. Older homes, mature trees, and a strong sense of community define Alamo Heights, and the residents here expect a level of care and discretion that matches their neighborhood's reputation. TQ Cleaners has developed real expertise cleaning Alamo Heights' mix of heritage homes and updated interiors — understanding older finishes, wood floors, original fixtures, and the care required to clean them without damage. We're trusted by Alamo Heights families who want the same reliable face at their door every visit, not a rotating cast of strangers. If you live on Broadway, Nacogdoches, or anywhere within the Heights, TQ Cleaners is ready to be your long-term cleaning partner.",
     reasons: [
       { title: "Heritage-Home Expertise", body: "Older homes require gentler, surface-specific care. Our team is trained on wood floors, original tile, and vintage finishes common throughout Alamo Heights." },
@@ -57,7 +57,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "san-antonio-metro",
     metroName: "San Antonio Metro",
     metaTitle: "House Cleaning in Helotes, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners offers professional house cleaning in Helotes, TX — large home experience, pet-friendly products, Saturday availability. Licensed and insured. Free quote today.",
+    metaDesc: "Professional house cleaning in Helotes, TX — large home experience, pet-friendly products, Saturday availability. Licensed & insured.",
     intro: "Helotes sits at the western edge of San Antonio where the city gives way to the Texas Hill Country — larger lots, newer builds, and a suburban lifestyle with real space to breathe. Homes in Helotes tend to run larger than the city average, with open floor plans, sprawling square footage, and the kind of busy family energy that makes professional cleaning not a luxury but a necessity. TQ Cleaners regularly services Helotes homes with multi-person crews built for larger properties — getting in, executing the full checklist efficiently, and getting out without disrupting your day. We're pet-friendly, eco-conscious, and experienced with the newer construction finishes common throughout Helotes developments like Sonoma Ranch and I-10 corridor neighborhoods.",
     reasons: [
       { title: "Large-Square-Foot Experience", body: "Helotes homes run big. We staff appropriately-sized crews so your clean is thorough and efficient — never rushed, never dragging." },
@@ -76,7 +76,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "san-antonio-metro",
     metroName: "San Antonio Metro",
     metaTitle: "House Cleaning in Leon Valley, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides affordable house and apartment cleaning in Leon Valley, TX. Fast standard cleans, eco-friendly products, flat-rate pricing. Licensed and insured.",
+    metaDesc: "Affordable house & apartment cleaning in Leon Valley, TX. Fast standard cleans, eco-friendly products, flat-rate. Licensed & insured.",
     intro: "Leon Valley is one of San Antonio's most established inner-ring suburbs — a compact, practical community on the northwest side with a mix of single-family homes and apartment complexes that reflect the real texture of San Antonio's workforce. Life in Leon Valley moves fast, and TQ Cleaners is built to match that pace. We specialize in efficient standard cleans for busy households, apartment unit turnovers for property managers, and recurring maintenance plans that keep homes consistently clean without eating into limited time or budget. Our flat-rate pricing means Leon Valley clients always know exactly what they're paying — no hourly ambiguity, no surprise charges when a bathroom took longer than expected. Eco-friendly products, consistent teams, and reliable scheduling make TQ Cleaners the cleaning company of choice in Leon Valley.",
     reasons: [
       { title: "Apartment-Turn Experts", body: "Leon Valley has a strong rental market. We handle efficient apartment turnovers for property managers and tenants preparing for deposit inspection." },
@@ -95,7 +95,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "san-antonio-metro",
     metroName: "San Antonio Metro",
     metaTitle: "House Cleaning in Converse, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners specializes in PCS move-out cleaning in Converse, TX near Randolph AFB. Deposit-back guarantee, flexible scheduling, licensed and insured. Free quote.",
+    metaDesc: "PCS move-out cleaning in Converse, TX near Randolph AFB. Deposit-back guarantee, flexible scheduling. Licensed & insured. Free quote.",
     intro: "Converse sits in the northeast corner of the San Antonio metro, just minutes from Randolph Air Force Base — which means Converse sees more PCS moves, military family transitions, and rental turnovers than almost anywhere else in the region. TQ Cleaners has built real expertise around the unique demands of military household cleaning: tight move-out timelines, landlord-inspection-standard cleans, and the deposit-back pressure that comes with government-standard housing requirements. Whether you're a service member facing a 30-day PCS deadline, a landlord preparing a property for the next military tenant, or a Converse family that simply needs consistent residential cleaning, TQ Cleaners shows up on time, cleans to standard, and stands behind every job with our satisfaction guarantee.",
     reasons: [
       { title: "PCS Move-Out Specialists", body: "We understand the strict timelines and cleaning standards required for military PCS moves — and we've helped hundreds of service members get their full deposit back." },
@@ -114,7 +114,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "san-antonio-metro",
     metroName: "San Antonio Metro",
     metaTitle: "House Cleaning in Universal City, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides PCS move-in/move-out cleaning in Universal City, TX near Randolph AFB. Insured, bonded, evening availability. Get a free quote today.",
+    metaDesc: "PCS move-in/move-out cleaning in Universal City, TX near Randolph AFB. Insured, bonded, evening availability. Free quote today.",
     intro: "Universal City is a tight-knit community built around Randolph Air Force Base — a place where neighbors know each other, military families rotate in and out on predictable PCS cycles, and trust in a service provider matters as much as the price. TQ Cleaners has earned that trust in Universal City by delivering consistent, inspection-grade cleaning for move-ins, move-outs, and ongoing residential service. We're fully insured and bonded — something landlords and property managers in the Randolph corridor specifically request. Our evening availability accommodates service members who can't be home during standard business hours, and our PCS move-in and move-out cleans are specifically designed to meet the standards military housing inspectors expect.",
     reasons: [
       { title: "PCS Move-In / Move-Out Ready", body: "Inspection-grade cleans built around military housing standards — move in clean, move out deposit-ready." },
@@ -133,7 +133,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "san-antonio-metro",
     metroName: "San Antonio Metro",
     metaTitle: "House Cleaning in Schertz, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners offers house cleaning in Schertz, TX — post-construction cleans, recurring family service, easy online booking. Licensed and insured. Get a free quote.",
+    metaDesc: "House cleaning in Schertz, TX — post-construction cleans, recurring family service, easy online booking. Licensed & insured. Free quote.",
     intro: "Schertz is one of the fastest-growing communities in the San Antonio metro — a corridor suburb along I-35 where new subdivisions seem to pop up overnight and young families are putting down roots at a rapid pace. New construction is everywhere in Schertz, which means post-build construction cleans are one of the most common requests we receive from the area. TQ Cleaners handles post-construction debris, drywall dust, and builder-grade residue with the specialized products and techniques that new builds require. Beyond new construction, Schertz families rely on TQ Cleaners for recurring weekly and bi-weekly maintenance — consistent, reliable cleaning that keeps pace with active household life in this growing community. Easy online booking and transparent flat-rate pricing make it simple to get started.",
     reasons: [
       { title: "Post-Build Construction Cleans", body: "New construction requires specialized cleaning — drywall dust, construction adhesive, paint residue. We handle it properly without damaging new finishes." },
@@ -152,7 +152,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "san-antonio-metro",
     metroName: "San Antonio Metro",
     metaTitle: "House Cleaning in New Braunfels, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides STR Airbnb and house cleaning in New Braunfels, TX. High-volume turnover specialists for Guadalupe and Comal tubing season. Free quote today.",
+    metaDesc: "STR Airbnb & house cleaning in New Braunfels, TX. High-volume turnover specialists for Guadalupe & Comal tubing season. Free quote.",
     intro: "New Braunfels is one of Texas's most beloved river towns — a historic community where the Guadalupe and Comal rivers draw millions of tubers, kayakers, and vacationers every summer season. That tourism economy has made New Braunfels one of the densest short-term rental markets in the state, with Airbnb and VRBO properties lining the river corridors and filling up from Memorial Day through Labor Day. TQ Cleaners has built specialized capacity for the New Braunfels STR market: high-volume same-day turnovers, linen handling, restocking, and the kind of hotel-quality resets that earn 5-star reviews and keep properties booked. Beyond the STR market, New Braunfels families — both longtime residents and the many young families relocating to this growing community — rely on TQ Cleaners for consistent, professional residential cleaning year-round.",
     reasons: [
       { title: "High-Volume STR Turnovers", body: "Tubing season brings back-to-back bookings. We handle multiple same-day turnovers and are built for the pace of peak New Braunfels tourism season." },
@@ -171,7 +171,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "san-antonio-metro",
     metroName: "San Antonio Metro",
     metaTitle: "House Cleaning in Boerne, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides ranch and luxury home cleaning in Boerne, TX. Well-water-safe eco products, large property flat rates. Licensed and insured. Free quote today.",
+    metaDesc: "Ranch & luxury home cleaning in Boerne, TX. Well-water-safe eco products, large property flat rates. Licensed & insured. Free quote.",
     intro: "Boerne is the jewel of the Texas Hill Country west of San Antonio — a historic town of limestone buildings, cypress-lined Cibolo Creek, and some of the most beautiful residential properties in South Texas. Upscale homes, working ranches, and sprawling Hill Country estates define Boerne's character, and they demand a cleaning service that can match that level. TQ Cleaners has developed specific expertise for Boerne's property mix: large-footage homes requiring multi-person crews, ranch properties with unique cleaning challenges, well-water-safe products that won't harm irrigation systems or filtration, and the care required for high-end surfaces, custom tile, and luxury finishes. Boerne homeowners trust TQ Cleaners because we treat every property with the same respect and attention to detail that the community itself embodies.",
     reasons: [
       { title: "Ranch & Large-Property Care", body: "From Hill Country estates to working ranches, we staff appropriately for properties of any size and complexity in the Boerne area." },
@@ -190,7 +190,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "san-antonio-metro",
     metroName: "San Antonio Metro",
     metaTitle: "House Cleaning in Stone Oak, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides luxury house cleaning in Stone Oak, San Antonio, TX. Discreet service, gated-community experience, weekly maintenance plans. Free quote today.",
+    metaDesc: "Luxury house cleaning in Stone Oak, San Antonio, TX. Discreet service, gated-community experience, weekly maintenance plans. Free quote.",
     intro: "Stone Oak is San Antonio's premier master-planned enclave on the far north side — an affluent, gated-community-heavy corridor where luxury homes, professional families, and high expectations define the landscape. TQ Cleaners has built a reputation in Stone Oak for delivering exactly the kind of discreet, consistent, detail-oriented service that residents in this community expect. We don't rotate random teams through your home. We assign dedicated, vetted cleaning professionals who learn your property, respect your privacy, and maintain the same 5-star standard every visit. Stone Oak homeowners trust TQ Cleaners for weekly luxury maintenance plans, quarterly deep cleans, and the kind of relationship-based service that turns a cleaning company into a long-term household partner.",
     reasons: [
       { title: "Luxury Weekly Maintenance", body: "Premium recurring service for Stone Oak's high-standard homes — same checklist, same team, same spotless result every single visit." },
@@ -209,7 +209,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "san-antonio-metro",
     metroName: "San Antonio Metro",
     metaTitle: "House Cleaning in The Dominion, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides estate-level cleaning in The Dominion, San Antonio. Vetted teams, concierge communication, luxury detail. Licensed and insured. Free quote.",
+    metaDesc: "Estate-level cleaning in The Dominion, San Antonio. Vetted teams, concierge communication, luxury detail. Licensed & insured. Free quote.",
     intro: "The Dominion is San Antonio's most prestigious address — a private, guarded community in the far northwest where estates, executive homes, and luxury properties represent the pinnacle of residential living in South Texas. Cleaning at this level is not simply about showing up with supplies. It requires vetted teams who've been background-checked and reference-verified, a process that takes longer but produces the trust that Dominion residents require. It requires concierge-level communication — proactive updates, confirmed arrival windows, detailed post-clean summaries, and immediate escalation if anything is ever less than perfect. TQ Cleaners built our estate-level service program specifically for communities like The Dominion, where the standard isn't just clean — it's flawless. Every visit is treated as an opportunity to earn the next one.",
     reasons: [
       { title: "Estate-Level Detail", body: "50-point checklist executed with the precision and care that estate properties demand — no shortcuts, no overlooked corners, no excuses." },
@@ -229,7 +229,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "austin-metro",
     metroName: "Austin Metro",
     metaTitle: "House Cleaning in Austin, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides 5-star house cleaning in Austin, TX — same-day quotes, tech-schedule flexibility, allergy-sensitive eco products. Licensed and insured. Free quote.",
+    metaDesc: "5-star house cleaning in Austin, TX — same-day quotes, tech-schedule flexibility, allergy-sensitive eco products. Licensed & insured.",
     intro: "Austin is the beating heart of Texas's tech economy — a city that never stops moving, from the downtown skyline to the Westlake hills to the sprawling suburbs along every corridor. Austin homeowners are busy, highly connected, and have high standards for every service they bring into their home. TQ Cleaners is built for Austin: fast same-day quotes through our online form, flexible scheduling that adapts to tech industry hours and remote-work schedules, and allergy-sensitive eco products that address Austin's notorious cedar, oak, and mold allergen load. Whether you're in Travis Heights, South Congress, Mueller, Tarrytown, or the Domain corridor, TQ Cleaners brings consistent, professional cleaning to your door — so you can spend your time on the work and life that brought you to Austin in the first place.",
     reasons: [
       { title: "Same-Day Quotes", body: "Austin runs fast. Get a flat-rate quote in under 60 seconds through our form or a 10-minute call — no waiting days for an estimate." },
@@ -248,7 +248,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "austin-metro",
     metroName: "Austin Metro",
     metaTitle: "House Cleaning in Round Rock, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides move-in cleaning and recurring house cleaning in Round Rock, TX. Relocation specialists, weekend availability. Licensed and insured. Free quote.",
+    metaDesc: "Move-in & recurring house cleaning in Round Rock, TX. Relocation specialists, weekend availability. Licensed & insured. Free quote.",
     intro: "Round Rock has become one of the most desirable suburbs in the Austin metro — a community that combines excellent schools, the Dell campus, and easy access to Austin's job market with the space and affordability that the city itself can no longer offer. Thousands of families relocate to Round Rock every year from California, the Pacific Northwest, and the Northeast, arriving in a new home in a new city and needing everything set up — including professional cleaning — before they can truly settle in. TQ Cleaners specializes in relocation move-in cleans that give Round Rock newcomers a genuinely fresh start in their new home. Beyond relocations, Round Rock families count on TQ Cleaners for reliable recurring service that keeps pace with the active, school-and-sports household life that defines this community.",
     reasons: [
       { title: "Relocation Move-In Experts", body: "We specialize in getting newly purchased and rented homes spotless before the furniture arrives — perfect for Round Rock's constant relocation influx." },
@@ -267,7 +267,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "austin-metro",
     metroName: "Austin Metro",
     metaTitle: "House Cleaning in Pflugerville, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners offers post-build and recurring house cleaning in Pflugerville, TX. Busy-family weekly service, flat-rate pricing. Licensed and insured. Free quote today.",
+    metaDesc: "Post-build & recurring house cleaning in Pflugerville, TX. Busy-family weekly service, flat-rate pricing. Licensed & insured. Free quote.",
     intro: "Pflugerville is northeast Austin's fastest-growing suburb — a community that has expanded dramatically over the past decade as new subdivisions, retail corridors, and families priced out of Austin proper have poured in. New construction is a defining feature of Pflugerville's landscape, and post-build construction cleans are among our most frequent service calls in the area. Builder-grade residue, drywall dust, adhesive streaks, and the countless small messes that new construction leaves behind require specialized technique and the right products to remove without damaging brand-new surfaces. TQ Cleaners handles post-construction Pflugerville cleans with precision, and transitions seamlessly into recurring family service for new homeowners who've just moved in and want to start fresh.",
     reasons: [
       { title: "Post-Build Construction Cleans", body: "Pflugerville's boom means new builds everywhere. We specialize in construction cleanup that prepares new homes for move-in day." },
@@ -286,7 +286,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "austin-metro",
     metroName: "Austin Metro",
     metaTitle: "House Cleaning in Cedar Park, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners offers family-friendly house cleaning in Cedar Park, TX. Pet-safe products, flexible scheduling, easy cancellation. Licensed and insured. Free quote.",
+    metaDesc: "Family-friendly house cleaning in Cedar Park, TX. Pet-safe products, flexible scheduling, easy cancellation. Licensed & insured.",
     intro: "Cedar Park is one of the northwest Austin corridor's most family-friendly communities — a place where young professionals, tech workers, and growing families have planted roots within reach of Austin's job market and surrounded by excellent schools and amenities. The Cedar Park household tends to be active, busy, and full of kids and pets — exactly the kind of home where consistent professional cleaning makes the biggest difference in quality of life. TQ Cleaners serves Cedar Park with family-first service: pet-safe, non-toxic products that are genuinely safe for the dogs, cats, and toddlers in your home; flexible scheduling that accommodates school drop-off windows and WFH hours; and easy cancellation policy that respects the reality of family life's unpredictability.",
     reasons: [
       { title: "Family-Friendly Scheduling", body: "Morning windows, afternoon blocks, weekend slots — we schedule around school and work, not the other way around." },
@@ -305,7 +305,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "austin-metro",
     metroName: "Austin Metro",
     metaTitle: "House Cleaning in Kyle, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners offers affordable house cleaning in Kyle, TX. New-build cleans, standard recurring plans, same-week start. Licensed and insured. Free quote today.",
+    metaDesc: "Affordable house cleaning in Kyle, TX. New-build cleans, standard recurring plans, same-week start. Licensed & insured. Free quote.",
     intro: "Kyle has exploded in growth over the past five years — one of the fastest-growing cities in the entire country, drawing families south of Austin with affordable home prices, good schools, and the promise of Hill Country proximity without Hill Country prices. New construction is the dominant story in Kyle, with subdivisions like Plum Creek, Waterleaf, and Anthem filling in rapidly. TQ Cleaners handles new-build construction cleans throughout Kyle, getting homes move-in ready for families arriving from Austin, the coasts, and across the country. For established Kyle residents, our standard recurring plans deliver consistent cleaning at pricing that makes sense for this community — affordable, flat-rate, and reliable. Same-week scheduling gets new clients started quickly without a long waiting list.",
     reasons: [
       { title: "New-Build Construction Cleans", body: "Kyle's growth is driven by new construction. We specialize in post-build cleans that get brand-new homes ready for move-in day." },
@@ -324,7 +324,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "austin-metro",
     metroName: "Austin Metro",
     metaTitle: "House Cleaning in Buda, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides locally owned house cleaning in Buda, TX. Community-rooted team, transparent pricing, reliable service. Licensed and insured. Free quote.",
+    metaDesc: "Locally owned house cleaning in Buda, TX. Community-rooted team, transparent pricing, reliable service. Licensed & insured. Free quote.",
     intro: "Buda may be one of the smaller communities in the Austin metro, but it has one of the strongest senses of local identity — a small-town character that residents fiercely protect even as growth presses in from Kyle and Austin to the north. For Buda residents, local ownership matters. Trust matters. Knowing who's in your home and why they're there matters. TQ Cleaners is owner-operated by Luis, who built this company on the same values that Buda residents live by: accountability, consistency, and doing the job right the first time. When you book TQ Cleaners in Buda, you're supporting a local business that treats your home with the same care you do — not a franchise that ships random crews to meet a quota.",
     reasons: [
       { title: "Local-Owner Accountability", body: "Owner-operated means Luis personally stands behind every clean in Buda. You have a real person to call, not a call center." },
@@ -343,7 +343,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "austin-metro",
     metroName: "Austin Metro",
     metaTitle: "House Cleaning in Leander, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides house cleaning in Leander, TX — new-construction expertise, Hill Country reach, reliable weekly service. Licensed and insured. Free quote.",
+    metaDesc: "House cleaning in Leander, TX — new-construction expertise, Hill Country reach, reliable weekly service. Licensed & insured. Free quote.",
     intro: "Leander is one of the northwest Austin corridor's most dynamic growth communities — rapidly expanding westward into the Texas Hill Country with master-planned developments like Crystal Falls, Bar W Ranch, and Bluffview filling in along Highway 183A. The Leander MetroRail station has made this community a genuine Austin commuter hub, drawing young professionals and families who want space without the Austin premium. New construction is constant in Leander, and TQ Cleaners handles post-build cleans throughout the newest developments, getting homes move-in ready for families arriving from within Texas and across the country. Our weekly and bi-weekly recurring service keeps Leander's busy commuter households consistently clean, and our Hill Country reach means we can also service properties west of Leander toward Liberty Hill and beyond.",
     reasons: [
       { title: "New-Construction Expertise", body: "Leander's rapid growth means constant new builds. We specialize in post-construction cleans that prepare homes for move-in." },
@@ -362,7 +362,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "austin-metro",
     metroName: "Austin Metro",
     metaTitle: "House Cleaning in Georgetown, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides house cleaning in Georgetown, TX. Gentle eco products for retirees, historic-home care, flexible scheduling. Licensed and insured. Free quote.",
+    metaDesc: "House cleaning in Georgetown, TX. Eco products for retirees, historic-home care, flexible scheduling. Licensed & insured. Free quote.",
     intro: "Georgetown is one of Texas's most charming cities — a beautifully preserved Victorian-era downtown square surrounded by one of the most diverse residential communities in the Austin metro. Georgetown is home to Sun City Texas, one of the largest active adult communities in the country, alongside younger families drawn by the historic character, Southwestern University, and lower prices relative to Austin. TQ Cleaners serves both Georgetown demographics with tailored service: gentle eco products and flexible, retiree-friendly scheduling for Sun City residents, and thorough historic-home expertise for downtown Georgetown's heritage properties. Whatever brings you to Georgetown, TQ Cleaners brings the same professional, reliable, flat-rate cleaning that has made us trusted across the Austin metro.",
     reasons: [
       { title: "Gentle Eco Products", body: "Non-toxic, fragrance-free products safe for seniors with chemical sensitivities and perfect for Georgetown's retiree community." },
@@ -381,7 +381,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "austin-metro",
     metroName: "Austin Metro",
     metaTitle: "House Cleaning in Lakeway, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides luxury home and Airbnb cleaning in Lakeway, TX on Lake Travis. Gated-community experience, STR turnovers. Licensed and insured. Free quote.",
+    metaDesc: "Luxury home & Airbnb cleaning in Lakeway, TX on Lake Travis. Gated-community experience, STR turnovers. Licensed & insured. Free quote.",
     intro: "Lakeway is Austin's premier lakeside luxury community — perched above Lake Travis with estate homes, championship golf courses, and some of the most beautiful residential properties in Central Texas. It's also a thriving short-term rental market, with lake-access properties earning premium nightly rates from Austin-area visitors and destination travelers year-round. TQ Cleaners serves Lakeway's dual residential and STR market with the precision and professionalism this community demands. Luxury homes require estate-level cleaning: detail-oriented teams who treat every surface with care, consistent assignments so the same trusted faces return every visit, and the gated-community access experience that keeps things smooth. STR properties on the lake demand hotel-quality turnovers — perfect bed staging, spotless bathrooms, and photo-ready resets between every guest.",
     reasons: [
       { title: "Luxury-Home Expertise", body: "Estate-level detail for Lakeway's high-end properties — the right products for custom tile, high-end appliances, and luxury finishes." },
@@ -400,7 +400,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "austin-metro",
     metroName: "Austin Metro",
     metaTitle: "House Cleaning in Bee Cave, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners offers luxury house cleaning in Bee Cave, TX. Detailed service, weekday windows, referral discounts. Licensed and insured. Get a free quote today.",
+    metaDesc: "Luxury house cleaning in Bee Cave, TX. Detailed service, weekday windows, referral discounts. Licensed & insured. Get a free quote.",
     intro: "Bee Cave sits at the nexus of Hill Country luxury and Austin proximity — a small incorporated city near the Shops at the Galleria that punches well above its modest square mileage in terms of residential prestige. Homes in Bee Cave tend to be large, meticulously maintained, and in neighborhoods where neighbors notice when a property isn't kept up. TQ Cleaners serves Bee Cave homeowners who expect the same from their cleaning service as they expect from every other premium service they use: detail, consistency, and a team that doesn't need to be supervised. Weekday cleaning windows fit the schedules of Bee Cave's professional and semi-retired residents, and our referral discount program makes it easy to share TQ Cleaners with neighbors and friends.",
     reasons: [
       { title: "Detailed Luxury Service", body: "Bee Cave homes are maintained at a high standard. Our team delivers the detail-oriented, surface-appropriate cleaning that premium properties require." },
@@ -419,7 +419,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "austin-metro",
     metroName: "Austin Metro",
     metaTitle: "House Cleaning in Dripping Springs, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides event-cleanup and Airbnb cleaning in Dripping Springs, TX. Ranch and venue turnover specialists. Licensed and insured. Free quote today.",
+    metaDesc: "Event-cleanup & Airbnb cleaning in Dripping Springs, TX. Ranch and venue turnover specialists. Licensed & insured. Free quote today.",
     intro: "Dripping Springs has earned its reputation as the wedding capital of Texas — a Hill Country gem where vineyard wedding venues, ranch event spaces, and luxury vacation rentals have created a booming hospitality economy alongside its longtime residential community. Cleaning in Dripping Springs means understanding both worlds: the post-event turnover that needs to happen fast after a 300-person wedding reception, and the ranch Airbnb that needs to be reset to 5-star standard before the next guests arrive Friday morning. TQ Cleaners is one of the few cleaning services in the Austin metro with real experience across both use cases — event-space cleanup, Airbnb turnovers, and the premium residential service that full-time Dripping Springs residents deserve. We're available same-week for new clients and offer flexible scheduling around peak event and STR seasons.",
     reasons: [
       { title: "Event-Cleanup Experts", body: "Post-wedding and post-event cleanup for Dripping Springs venues and private properties — fast, thorough, and staged for the next event." },
@@ -439,7 +439,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "dallas-metro",
     metroName: "Dallas Metro",
     metaTitle: "House Cleaning in Dallas, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides professional house and commercial cleaning in Dallas, TX. Corporate condo experts, recurring service, same-day quotes. Licensed and insured.",
+    metaDesc: "Professional house & commercial cleaning in Dallas, TX. Corporate condo experts, recurring service, same-day quotes. Licensed & insured.",
     intro: "Dallas is the hub of North Texas's sprawling metro — a city of dramatic contrasts, from the gleaming towers of Uptown and the Arts District to the historic bungalows of Oak Cliff and the luxury estates of Preston Hollow. Cleaning in Dallas means understanding those contrasts: high-rise condo turnovers in the central districts, large-home maintenance in the Park Cities and Preston Hollow corridors, and the professional-grade commercial cleaning that the city's corporate infrastructure demands. TQ Cleaners serves Dallas homeowners, condo owners, and businesses with the same flat-rate, licensed, insured service we deliver across Central and North Texas. Same-day quotes are available for all Dallas properties, and our recurring service keeps Dallas's busy professional households consistently clean without the management overhead of coordinating a freelance cleaner.",
     reasons: [
       { title: "Corporate-Condo Experts", body: "Dallas's Uptown, Knox-Henderson, and Victory Park neighborhoods are condo-dense. We specialize in efficient condo cleaning that meets HOA standards." },
@@ -458,7 +458,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "dallas-metro",
     metroName: "Dallas Metro",
     metaTitle: "House Cleaning in Plano, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides relocation move-in cleaning and recurring house cleaning in Plano, TX. Large-home crews, reliable weekly service. Licensed and insured. Free quote.",
+    metaDesc: "Relocation move-in & recurring house cleaning in Plano, TX. Large-home crews, reliable weekly service. Licensed & insured. Free quote.",
     intro: "Plano is one of the most significant corporate-relocation destinations in the entire United States — home to the North American headquarters of Toyota, JPMorgan Chase, Liberty Mutual, and dozens of other major corporations that have transplanted thousands of employees from across the country into the Plano suburbs. Every relocation means a family arriving from California, New York, Illinois, or overseas who needs a move-in clean before they can truly settle into their new home. TQ Cleaners is Plano's go-to relocation cleaning service: detailed move-in cleans coordinated with realtors and property managers, same-week availability for last-minute arrivals, and seamless transition into recurring service once the family is settled. Plano's homes also tend toward the larger end of the spectrum — we staff appropriately for the square footage so nothing is rushed.",
     reasons: [
       { title: "Relocation Move-In Cleans", body: "Plano's corporate relocation market is one of the most active in Texas. We specialize in coordinating move-in cleans with realtors for out-of-state arrivals." },
@@ -477,7 +477,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "dallas-metro",
     metroName: "Dallas Metro",
     metaTitle: "House Cleaning in Frisco, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners offers post-build and luxury house cleaning in Frisco, TX. Multi-gen household expertise, weekly maintenance plans. Licensed and insured. Free quote today.",
+    metaDesc: "Post-build & luxury house cleaning in Frisco, TX. Multi-gen household expertise, weekly maintenance plans. Licensed & insured. Free quote.",
     intro: "Frisco is a phenomenon — consistently ranked among the fastest-growing cities in the United States, a master-planned community that has transformed from North Dallas farmland into a thriving city of 200,000+ in less than two decades. New construction is constant in Frisco, and the city's explosive growth has brought not just young families but multi-generational households, corporate relocations, and luxury home buyers who expect a premium level of service. TQ Cleaners handles the full spectrum of Frisco's cleaning demands: post-construction cleans for new builds fresh off the assembly line, weekly luxury maintenance for Frisco's estate-scale properties, and the specialized care that multi-generational households — where three generations share a home and everyone has different needs — require from a cleaning service.",
     reasons: [
       { title: "Post-Build Cleans", body: "Frisco's construction boom means constant demand for post-build cleanup. We get new homes move-in ready from builder-grade mess." },
@@ -496,7 +496,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "dallas-metro",
     metroName: "Dallas Metro",
     metaTitle: "House Cleaning in Richardson, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners offers house cleaning in Richardson, TX. Multi-cultural-home respect, tech-commute-friendly scheduling, pet-safe products. Licensed and insured. Free quote.",
+    metaDesc: "House cleaning in Richardson, TX. Multi-cultural-home respect, tech-commute-friendly scheduling, pet-safe products. Licensed & insured.",
     intro: "Richardson is one of Dallas's most diverse and dynamic communities — home to the Telecom Corridor, the University of Texas at Dallas, and a residential population that spans cultures, generations, and lifestyles in a way few Texas suburbs can match. The Telecom Corridor's legacy of tech employment and UTD's international academic community have made Richardson a truly multicultural city where residents come from across the country and around the world. TQ Cleaners approaches every Richardson home with genuine cultural respect — we don't assume one cleaning standard fits all, we communicate clearly, and we accommodate specific requests and preferences that reflect the diverse households we serve. Tech-commuter-friendly scheduling accounts for the long hours that Richardson's tech workforce keeps, and our pet-safe products protect the animals that share Richardson homes.",
     reasons: [
       { title: "Multi-Cultural Home Respect", body: "Richardson's diverse community means diverse household needs. We communicate clearly, accommodate preferences, and clean with respect for every home's character." },
@@ -516,7 +516,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "fort-worth-metro",
     metroName: "Fort Worth Metro",
     metaTitle: "House Cleaning in Fort Worth, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides trusted house cleaning in Fort Worth, TX. Local-owner accountability, historic-home care, fair flat-rate pricing. Licensed and insured. Free quote.",
+    metaDesc: "Trusted house cleaning in Fort Worth, TX. Local-owner accountability, historic-home care, fair flat-rate pricing. Licensed & insured.",
     intro: "Fort Worth is Cowtown — a city that wears its Western heritage proudly from the Stockyards to Sundance Square while simultaneously growing into one of Texas's most dynamic metros. Fort Worth's residential landscape is as varied as its character: Victorian homes in the Fairmount historic district, modern condos in the Near Southside, established neighborhoods in the Cultural District, and rapidly growing suburban communities in the far west. TQ Cleaners serves Fort Worth homeowners and businesses with the same values that define the city itself — local ownership, straight dealing, and fair prices for honest work. We're not a franchise. We're a Texas-owned business that treats your home with the same pride that Fort Worth residents bring to their community.",
     reasons: [
       { title: "Local-Owner Accountability", body: "Owner-operated by Luis — not a franchise. Fort Worth residents get real accountability and direct communication, not a call center." },
@@ -535,7 +535,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "fort-worth-metro",
     metroName: "Fort Worth Metro",
     metaTitle: "House Cleaning in Arlington, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners offers house cleaning in Arlington, TX. Event-cleanup service, large-home crews, weekend availability for game days. Licensed and insured. Free quote.",
+    metaDesc: "House cleaning in Arlington, TX. Event-cleanup service, large-home crews, weekend availability for game days. Licensed & insured.",
     intro: "Arlington sits in the geographic heart of the DFW Metroplex — the city between Dallas and Fort Worth that is home to AT&T Stadium, Globe Life Field, and Six Flags over Texas. Arlington's identity is shaped by its entertainment venues, its diverse residential communities, and the constant flow of events that bring hundreds of thousands of visitors to the city each year. For Arlington homeowners, that means cleaning needs that sometimes don't fit a standard schedule: post-game-day house cleanups after home entertainment, event-adjacent property preparation, and the large-home service that Arlington's established suburbs require. TQ Cleaners handles it all — from the large families in the Dalworthington Gardens area to the rental properties near the Sports District that see heavy turnover around game days.",
     reasons: [
       { title: "Event-Cleanup Service", body: "Game days and events generate real cleaning needs. We schedule post-event cleanups for Arlington homeowners who entertain around the Sports District calendar." },
@@ -554,7 +554,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "fort-worth-metro",
     metroName: "Fort Worth Metro",
     metaTitle: "House Cleaning in Grapevine, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides Airbnb and STR cleaning in Grapevine, TX near DFW Airport. Same-day turnovers, host-friendly communication. Licensed and insured. Free quote.",
+    metaDesc: "Airbnb & STR cleaning in Grapevine, TX near DFW Airport. Same-day turnovers, host-friendly communication. Licensed & insured. Free quote.",
     intro: "Grapevine is one of the DFW Metroplex's most uniquely positioned cities — a historic Main Street community directly adjacent to DFW International Airport, making it one of the most active short-term rental markets in North Texas. Business travelers, airline crews, and leisure visitors fill Grapevine's STR properties year-round, and the fast check-out/check-in windows that the travel market demands are a constant pressure on hosts. TQ Cleaners has built specialized capacity for the Grapevine STR market: efficient same-day turnovers, hotel-quality bed staging, damage photo reporting, and the host-friendly communication that keeps your listing running smoothly. Beyond the STR market, Grapevine's established residential community and the beautiful historic district offer a quieter side of the city where recurring residential cleaning clients trust TQ Cleaners for consistent, professional service.",
     reasons: [
       { title: "DFW-Airbnb Turnover Specialists", body: "Same-day turnovers built for the DFW travel market. We fill the 11 AM → 3 PM window so you never have to push a check-in." },
@@ -573,7 +573,7 @@ export const CITIES_DATA: CityData[] = [
     metroSlug: "fort-worth-metro",
     metroName: "Fort Worth Metro",
     metaTitle: "House Cleaning in Southlake, TX | TQ Cleaners",
-    metaDesc: "TQ Cleaners provides luxury estate cleaning in Southlake, TX. Vetted-team discretion, concierge scheduling, premium detail. Licensed and insured. Free quote today.",
+    metaDesc: "Luxury estate cleaning in Southlake, TX. Vetted-team discretion, concierge scheduling, premium detail. Licensed & insured. Free quote.",
     intro: "Southlake is consistently ranked among the wealthiest cities in Texas — a community of executive estates, premium developments, and a residential standard that reflects the success of the corporate and professional families who live here. Carroll ISD's reputation and Southlake Town Square's amenities have made this one of the most sought-after addresses in the entire DFW Metroplex. Cleaning at the Southlake level requires more than showing up with supplies — it requires teams that have been rigorously vetted, trained specifically for luxury finishes and high-value surfaces, and held to an accountability standard that matches the community's expectations. TQ Cleaners built our luxury estate service precisely for communities like Southlake: concierge scheduling, detailed pre-visit briefings, consistent team assignment, and zero tolerance for anything less than perfect.",
     reasons: [
       { title: "Luxury-Home Expertise", body: "Custom finishes, premium appliances, high-end surfaces — we use the right products and techniques for every material in Southlake's estates." },

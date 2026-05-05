@@ -7,8 +7,7 @@ import { buildBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Get a Free Cleaning Quote | TQ Cleaners — Texas",
-  description:
-    "Get a free, no-obligation cleaning quote from TQ Cleaners in under 60 seconds. Serving San Antonio, Austin, Dallas, and Fort Worth. Call or fill out our form today.",
+  description: "Free, no-obligation cleaning quote in under 60 seconds. Serving San Antonio, Austin, Dallas & Fort Worth. Call or fill out our form.",
   alternates: { canonical: "https://tqcleaners.com/contact" },
   openGraph: {
     type: "website",

@@ -7,8 +7,7 @@ import { buildBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Service Areas | TQ Cleaners — Cleaning Across Texas",
-  description:
-    "TQ Cleaners serves 30+ cities across San Antonio, Austin, Dallas, and Fort Worth metros. Find your city and get a free cleaning quote today.",
+  description: "TQ Cleaners serves 30+ cities in San Antonio, Austin, Dallas & Fort Worth. Find your city and get a free cleaning quote today.",
   alternates: { canonical: "https://tqcleaners.com/service-areas" },
   openGraph: {
     type: "website",

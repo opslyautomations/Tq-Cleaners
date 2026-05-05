@@ -6,8 +6,7 @@ import { buildBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Cleaning Tips & Guides | TQ Cleaners Blog",
-  description:
-    "Expert cleaning tips, move-out guides, Airbnb hosting advice, and eco-friendly cleaning insights from TQ Cleaners — serving Texas families since day one.",
+  description: "Expert cleaning tips, move-out guides, Airbnb advice, and eco-friendly insights from TQ Cleaners — for Texas families.",
   alternates: { canonical: "https://tqcleaners.com/blog" },
   openGraph: {
     type: "website",

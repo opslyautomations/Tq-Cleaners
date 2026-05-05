@@ -10,8 +10,7 @@ import { SITE, SERVICES, METROS, REVIEWS, BLOG_POSTS } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "TQ Cleaners | House & Commercial Cleaning in Texas",
-  description:
-    "TQ Cleaners delivers licensed, insured, 5-star house and commercial cleaning across 30+ Texas cities — San Antonio, Austin, Dallas, Fort Worth. 100% satisfaction guaranteed. Free quote today.",
+  description: "Licensed, insured 5-star house & commercial cleaning across 30+ Texas cities. 100% satisfaction guaranteed. Free quote today.",
   alternates: { canonical: "https://tqcleaners.com" },
   openGraph: {
     type: "website",

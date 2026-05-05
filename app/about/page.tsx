@@ -6,8 +6,7 @@ import { buildBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "About TQ Cleaners | Trusted Texas Cleaning Service",
-  description:
-    "Learn about TQ Cleaners — a Texas-based, owner-operated cleaning company serving 30+ cities across San Antonio, Austin, Dallas, and Fort Worth with trained teams and eco-friendly products.",
+  description: "Texas-based, owner-operated cleaning company serving 30+ cities with trained, background-checked teams and eco-friendly products.",
   alternates: { canonical: "https://tqcleaners.com/about" },
   openGraph: {
     type: "website",

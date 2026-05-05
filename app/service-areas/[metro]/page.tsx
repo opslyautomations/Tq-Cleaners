@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ metro: st
   if (!metro) return {};
   return {
     title: `${metro.name} Cleaning Services | TQ Cleaners`,
-    description: `TQ Cleaners serves ${metro.cities.length} cities in the ${metro.name}. Flat-rate pricing, licensed & insured. Get a free cleaning quote for your city today.`,
+    description: `TQ Cleaners serves ${metro.cities.length} cities in the ${metro.name}. Flat-rate, licensed & insured. Free cleaning quote for your city today.`,
     alternates: { canonical: `https://tqcleaners.com/service-areas/${metroSlug}` },
     openGraph: {
       type: "website",

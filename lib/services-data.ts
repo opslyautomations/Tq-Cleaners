@@ -19,7 +19,7 @@ export const SERVICES_DATA: ServiceData[] = [
     shortDesc: "Recurring weekly, bi-weekly, or monthly cleaning for busy households.",
     icon: "Home",
     metaTitle: "Standard House Cleaning | TQ Cleaners — San Antonio, Austin, Dallas & Fort Worth",
-    metaDesc: "TQ Cleaners provides reliable standard house cleaning — weekly, bi-weekly, or monthly — across San Antonio, Austin, Dallas, and Fort Worth. Same team, flat-rate pricing.",
+    metaDesc: "Reliable weekly, bi-weekly, or monthly house cleaning across San Antonio, Austin, Dallas & Fort Worth. Same team, flat-rate pricing.",
     heroTitle: "Standard House Cleaning in San Antonio, Austin, Dallas & Fort Worth",
     overview: [
       "Recurring house cleaning is the easiest investment you can make in your home and your sanity. TQ Cleaners offers weekly, bi-weekly, and monthly cleaning plans for busy households across Central and North Texas — giving you a consistently tidy space without sacrificing your weekends.",
@@ -58,7 +58,7 @@ export const SERVICES_DATA: ServiceData[] = [
     shortDesc: "Top-to-bottom 50-point reset — inside appliances, baseboards, vents, and more.",
     icon: "Sparkles",
     metaTitle: "Deep Cleaning Services | TQ Cleaners — San Antonio, Austin, Dallas & Fort Worth",
-    metaDesc: "TQ Cleaners deep cleaning tackles inside appliances, grout, vents, baseboards, and more across San Antonio, Austin, Dallas, and Fort Worth. 50-point checklist. Get a free quote today.",
+    metaDesc: "Deep cleaning tackles appliances, grout, vents, and baseboards across San Antonio, Austin, Dallas & Fort Worth. 50-point checklist.",
     heroTitle: "Deep Cleaning Services in San Antonio, Austin, Dallas & Fort Worth",
     overview: [
       "A deep clean is the reset your home needs — not just surface-level tidying, but a top-to-bottom tackle of every area that accumulates grime over months or years: inside appliances, grout lines, ceiling fans, door frames, vents, blinds, and behind furniture. TQ Cleaners brings a 50-point deep cleaning checklist to every job across Texas.",
@@ -99,7 +99,7 @@ export const SERVICES_DATA: ServiceData[] = [
     shortDesc: "Complete turnover cleans with deposit-back guarantee for tenants and landlords.",
     icon: "Truck",
     metaTitle: "Move-In / Move-Out Cleaning | TQ Cleaners — San Antonio, Austin, Dallas & Fort Worth",
-    metaDesc: "TQ Cleaners move-in/move-out cleaning with a deposit-back guarantee. Complete turnover cleans for tenants, landlords, and property managers across Texas. Same-day availability.",
+    metaDesc: "Move-in/move-out cleaning with a deposit-back guarantee. Tenants, landlords & property managers across Texas. Same-day availability.",
     heroTitle: "Move-In / Move-Out Cleaning in San Antonio, Austin, Dallas & Fort Worth",
     overview: [
       "Moving is stressful. The cleaning doesn't have to be. TQ Cleaners handles complete move-out and move-in cleaning for tenants, homeowners, landlords, and property managers across San Antonio, Austin, Dallas, and Fort Worth — so you can focus on the move itself.",
@@ -140,7 +140,7 @@ export const SERVICES_DATA: ServiceData[] = [
     shortDesc: "Hotel-quality resets between guests — linens, restock, and damage reports included.",
     icon: "Star",
     metaTitle: "Airbnb & Short-Term Rental Cleaning | TQ Cleaners — Texas",
-    metaDesc: "TQ Cleaners provides hotel-quality Airbnb and VRBO cleaning across San Antonio, Austin, Dallas, and Fort Worth. Same-day turnovers, linen handling, and damage photo reports.",
+    metaDesc: "Hotel-quality Airbnb & VRBO cleaning across San Antonio, Austin, Dallas & Fort Worth. Same-day turnovers, linen handling, damage reports.",
     heroTitle: "Short-Term Rental & Airbnb Cleaning in San Antonio, Austin, Dallas & Fort Worth",
     overview: [
       "Cleanliness is the #1 factor in Airbnb guest reviews — and a single 3-star rating for cleaning can tank your listing's visibility for months. TQ Cleaners provides hotel-quality turnover cleaning for Airbnb, VRBO, and short-term rental hosts across Texas, so your guests always walk into a property that exceeds expectations.",
@@ -178,7 +178,7 @@ export const SERVICES_DATA: ServiceData[] = [
     shortDesc: "Flexible after-hours commercial cleaning with full COI available in 24 hours.",
     icon: "Building2",
     metaTitle: "Office & Commercial Cleaning | TQ Cleaners — San Antonio, Austin, Dallas & Fort Worth",
-    metaDesc: "TQ Cleaners provides professional office and commercial cleaning across Texas — after-hours, full COI, month-to-month contracts. Serving businesses in San Antonio, Austin, Dallas, and Fort Worth.",
+    metaDesc: "Professional office & commercial cleaning across Texas — after-hours, full COI, month-to-month. San Antonio, Austin, Dallas & Fort Worth.",
     heroTitle: "Office & Commercial Cleaning in San Antonio, Austin, Dallas & Fort Worth",
     overview: [
       "A clean workplace isn't a luxury — it's a business necessity. TQ Cleaners provides professional commercial cleaning for offices, medical practices, retail spaces, and commercial buildings across San Antonio, Austin, Dallas, and Fort Worth. We work around your business hours so operations are never disrupted.",
@@ -216,7 +216,7 @@ export const SERVICES_DATA: ServiceData[] = [
     shortDesc: "Fully tailored cleaning plans for unique homes, estates, and businesses.",
     icon: "Settings",
     metaTitle: "Custom Cleaning Packages | TQ Cleaners — San Antonio, Austin, Dallas & Fort Worth",
-    metaDesc: "TQ Cleaners builds custom cleaning plans for oversized homes, estates, post-construction, post-event, luxury maintenance, and more across Texas. Flat-rate pricing, same trusted team.",
+    metaDesc: "Custom cleaning plans for oversized homes, estates, post-construction, post-event & luxury maintenance across Texas. Flat-rate pricing.",
     heroTitle: "Custom Cleaning Packages in San Antonio, Austin, Dallas & Fort Worth",
     overview: [
       "Not every home or business fits a standard cleaning package — and TQ Cleaners doesn't force it. Custom packages let us build a cleaning plan around your exact space, schedule, and priorities rather than making you pay for services you don't need or skip services you do.",

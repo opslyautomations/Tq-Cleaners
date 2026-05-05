@@ -7,8 +7,7 @@ import { buildBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Cleaning Services | TQ Cleaners — San Antonio, Austin, Dallas & Fort Worth",
-  description:
-    "TQ Cleaners offers standard house cleaning, deep cleaning, move-in/out, Airbnb, office & commercial cleaning, and custom packages across San Antonio, Austin, Dallas, and Fort Worth.",
+  description: "House, deep, move-in/out, Airbnb & commercial cleaning across San Antonio, Austin, Dallas & Fort Worth. Flat-rate, licensed & insured.",
   alternates: { canonical: "https://tqcleaners.com/services" },
   openGraph: {
     type: "website",

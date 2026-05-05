@@ -13,7 +13,7 @@ export const BLOG_POSTS_DATA: BlogPostData[] = [
   {
     slug: "how-often-should-you-deep-clean-your-house-texas-edition",
     title: "How Often Should You Deep Clean Your House? A Texas Homeowner's Guide",
-    excerpt: "Texas heat, humidity, and cedar-fever allergens create unique cleaning challenges. Here's how often to deep-clean in San Antonio, Austin, Dallas, or Fort Worth.",
+    excerpt: "Texas heat, humidity & cedar allergens create unique challenges. How often to deep-clean in San Antonio, Austin, Dallas or Fort Worth.",
     date: "2026-01-08",
     category: "Cleaning Tips",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",

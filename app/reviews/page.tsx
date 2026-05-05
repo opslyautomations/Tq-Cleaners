@@ -8,8 +8,7 @@ import { buildBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Customer Reviews | TQ Cleaners — Texas Cleaning Service",
-  description:
-    "Read real 5-star reviews from TQ Cleaners customers across San Antonio, Austin, Dallas, and Fort Worth. Verified reviews from families, landlords, and Airbnb hosts.",
+  description: "Real 5-star reviews from TQ Cleaners customers across San Antonio, Austin, Dallas & Fort Worth — families, landlords, and Airbnb hosts.",
   alternates: { canonical: "https://tqcleaners.com/reviews" },
   openGraph: {
     type: "website",

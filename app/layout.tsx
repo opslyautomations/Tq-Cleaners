@@ -24,8 +24,7 @@ export const metadata: Metadata = {
     default: `${SITE.name} | House & Commercial Cleaning in Texas`,
     template: `%s | ${SITE.name}`,
   },
-  description:
-    "TQ Cleaners delivers licensed, insured, 5-star house and commercial cleaning across 30+ Texas cities — San Antonio, Austin, Dallas, Fort Worth. 100% satisfaction guaranteed.",
+  description: "TQ Cleaners: licensed, insured 5-star cleaning across 30+ Texas cities. San Antonio, Austin, Dallas & Fort Worth. Free quote.",
   metadataBase: new URL(SITE.domain),
   alternates: { canonical: SITE.domain },
   openGraph: {
