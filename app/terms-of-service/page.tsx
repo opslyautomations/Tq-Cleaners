@@ -99,6 +99,76 @@ export default function TermsOfServicePage() {
           </div>
 
           <div className="border-t border-gray-200 pt-8">
+            <h2 className="text-xl font-bold text-[#0A1628] font-display mb-6">SMS Terms &amp; Conditions</h2>
+
+            <div className="space-y-6 text-sm">
+              <div>
+                <p className="font-bold text-[#0A1628] mb-1">1- SMS Consent Communication:</p>
+                <p>Information (Phone Numbers) obtained as part of the SMS consent process will not be shared with third parties for marketing purposes.</p>
+              </div>
+
+              <div>
+                <p className="font-bold text-[#0A1628] mb-1">2- Types of SMS Communications:</p>
+                <p className="mb-2">If consent has been given to receive text messages from TQ Cleaners, messages may be received related to the following:</p>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>Specific jobs</li>
+                  <li>Balance due</li>
+                  <li>Account status</li>
+                </ul>
+              </div>
+
+              <div>
+                <p className="font-bold text-[#0A1628] mb-1">3- Message Frequency:</p>
+                <p>Message frequency may vary depending on the type of communication. For example, you may receive up to 4 SMS messages per week related to appointments, billing, and account updates.</p>
+              </div>
+
+              <div>
+                <p className="font-bold text-[#0A1628] mb-1">4- Potential Fees for SMS Messaging:</p>
+                <p>Standard message and data rates may apply, depending on the carrier&apos;s pricing plan. These fees may vary if the message is sent domestically or internationally.</p>
+              </div>
+
+              <div>
+                <p className="font-bold text-[#0A1628] mb-1">5- Opt-In Method:</p>
+                <p className="mb-2">Opt-in to receive SMS messages from TQ Cleaners can be done in the following ways:</p>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>By submitting an online form</li>
+                </ul>
+              </div>
+
+              <div>
+                <p className="font-bold text-[#0A1628] mb-1">6- Opt-Out Method:</p>
+                <p>Opting out of receiving SMS messages can be done at any time by replying &ldquo;STOP&rdquo; to any SMS message received. Alternatively, direct contact can be made to request removal from the messaging list.</p>
+              </div>
+
+              <div>
+                <p className="font-bold text-[#0A1628] mb-1">7- Help:</p>
+                <p className="mb-2">
+                  For any issues, reply with the keyword HELP. Alternatively, help can be obtained directly from us at{" "}
+                  <a href="https://www.tqcleaners.com" className="text-[#4FC3F7] hover:underline">www.tqcleaners.com</a>
+                </p>
+                <p className="font-medium text-[#0A1628] mb-1">Additional Options:</p>
+                <p>If SMS messages are not desired, the SMS consent box on forms can be left unchecked.</p>
+              </div>
+
+              <div>
+                <p className="font-bold text-[#0A1628] mb-2">8- Standard Messaging Disclosures:</p>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>Message and data rates may apply.</li>
+                  <li>Opt out at any time by texting &ldquo;STOP.&rdquo;</li>
+                  <li>
+                    For assistance, text &ldquo;HELP&rdquo; or visit our{" "}
+                    <Link href="/privacy" className="text-[#4FC3F7] hover:underline">Privacy Policy</Link>
+                    {" "}and{" "}
+                    <Link href="/terms-of-service" className="text-[#4FC3F7] hover:underline">Terms and Conditions</Link>
+                    {" "}pages.
+                  </li>
+                  <li>Message frequency may vary.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="border-t border-gray-200 pt-8">
             <h2 className="text-xl font-bold text-[#0A1628] font-display mb-3">Contact Information</h2>
             <p className="font-bold text-[#0A1628]">TQ Cleaners</p>
             <p className="mt-1">

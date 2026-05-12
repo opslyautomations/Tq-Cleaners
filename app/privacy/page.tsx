@@ -56,6 +56,13 @@ export default function PrivacyPage() {
               <h2 className="text-xl font-bold text-[#0A1628] font-display mb-3">6. Contact Us</h2>
               <p>Questions about this policy? Contact TQ Cleaners at <a href={`mailto:${SITE.email}`} className="text-[#4FC3F7] hover:underline">{SITE.email}</a> or call <a href={`tel:${SITE.phoneTel}`} className="text-[#4FC3F7] hover:underline">{SITE.phone}</a>.</p>
             </div>
+
+            <div className="border-t border-gray-200 pt-8">
+              <h2 className="text-xl font-bold text-[#0A1628] font-display mb-3">SMS Privacy Policy</h2>
+              <p>
+                SMS Consent, and phone numbers collected for SMS communication purposes will not be shared with any third party or affiliates for marketing purposes.
+              </p>
+            </div>
           </div>
         </div>
       </section>
