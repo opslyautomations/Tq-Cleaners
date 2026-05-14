@@ -30,6 +30,9 @@ export default function PrivacyPolicyPage() {
           <div>
             <h2 className="text-xl font-bold text-[#0A1628] font-display mb-3">Introduction</h2>
             <p>
+              For purposes of this website, &ldquo;TQ Cleaners&rdquo; refers to TQ Cleaners, a DBA of TQ4 Construction LLC.
+            </p>
+            <p className="mt-3">
               TQ Cleaners (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) respects your privacy. This Privacy Policy explains how
               we collect, use, disclose, and protect your information when you visit our website or use our cleaning
               services. By using our website, you agree to the practices described in this policy.

@@ -66,6 +66,9 @@ export default function AboutPage() {
               a deep top-to-bottom refresh, a move-out turnover, or a post-stay Airbnb reset. Our goal is simple:
               become the most trusted name in Texas cleaning by doing every job the way we&apos;d clean our own home.
             </p>
+            <p className="text-base text-[#1A2332]/60 italic">
+              TQ Cleaners is a DBA of TQ4 Construction LLC.
+            </p>
           </div>
         </div>
       </section>

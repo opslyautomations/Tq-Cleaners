@@ -97,7 +97,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#F5F9FC]/50">
-          <p>© 2026 TQ Cleaners. All rights reserved.</p>
+          <p>© 2026 TQ Cleaners, a DBA of TQ4 Construction LLC. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <Link href="/privacy-policy" className="hover:text-[#4FC3F7] transition-colors">Privacy Policy</Link>
             <Link href="/terms-of-service" className="hover:text-[#4FC3F7] transition-colors">Terms of Service</Link>
